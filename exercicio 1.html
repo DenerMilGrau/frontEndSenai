@@ -13,73 +13,311 @@
     <title>EXERCÍCIO 1</title>
 </head>
 <body class="bg-light">
+<p id="bhome">aa</p>
+<div class="min-vh-100">
+    <nav class="navbar navbar-expand bg-primary d-flex flex-row justify-content-between p-5 fixed-top"
+         style="height: 40px">
+        <div class="contaner-fluid">
+            <a class="logo navbar-brand fs-2" href="#">Logo</a>
+        </div>
+        <div class="container-fluid justify-content-end ">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#bhome">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#time">Time</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#contato ">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<nav class="navbar navbar-expand bg-primary d-flex flex-row justify-content-between p-5" style="height: 100px">
-    <div class="contaner-fluid">
-        <a class="navbar-brand fs-2" href="#">Logo</a>
-    </div>
-    <div class="container-fluid justify-content-end ">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="">Disabled</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="">LINK</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <div id="home" class="container-fluid row d-flex justify-between col-12 bg-light" style="height: 30vh">
 
-<div class="container-fluid row d-flex justify-between col-12 bg-light" style="height: 30vh;">
-    <div class="flex-column d-flex col-6 align-middle justify-content-around" style="text-align: center">
-        <h1>texto</h1>
-        <p>adwpksefhksvbkaefbhadefdfl.hsfaufaeku ukrojjsad a dsjkaha huuheaufueaugea u afeegfeygfakug fea heaui fgfae g
-            ge uhefiuegauguegfuega uc uegugfug geafu gug fauguegflbsehfiegluadfdfh</p>
+        <div class="flex-column d-flex col-6 align-middle justify-content-around" style="text-align: center">
+            <h1>texto</h1>
+            <p>adwpksefhksvbkaefbhadefdfl.hsfaufaeku ukrojjsad a dsjkaha huuheaufueaugea u afeegfeygfakug fea heaui
+                fgfae g
+                ge uhefiuegauguegfuega uc uegugfug geafu gug fauguegflbsehfiegluadfdfh</p>
+        </div>
+        <div class="d-flex flex-row col-6 justify-content-center">
+            <!--            <img width="250px" style="object-fit: contain"-->
+            <!--                 src=""-->
+            <!--                 alt="PANDA NA TROLE">-->
+
+            <div id="carouselExampleCaptions" class="carousel slide w-50">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="capa-title h-100 w-100 position-absolute"></div>
+
+                        <img src="https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png"
+                             class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Panda</h5>
+                            <!--                            <p>Some representative placeholder content for the first slide.</p>-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="capa-title h-100 w-100 position-absolute"></div>
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlyPlclYtazf0gBo_GSBFX_R0ruRSJXq44qQ&s"
+                             class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Campo</h5>
+                            <!--                            <p>Some representative placeholder content for the second slide.</p>-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="capa-title h-100 w-100 position-absolute"></div>
+                        <img src="https://blog.emania.com.br/wp-content/uploads/2016/02/direitos-autorais-e-de-imagem.jpg"
+                             class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Praia</h5>
+                            <!--                            <p>Some representative placeholder content for the third slide.</p>-->
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
     </div>
-    <div class="d-flex flex-row col-6 justify-content-center">
-        <img width="250px" style="object-fit: contain"
-             src="https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png"
-             alt="PANDA NA TROLE">
+
+    <div class="container-fluid mt-5 d-flex flex-row justify-content-around align-items-center bg-light col-12"
+         style="height: 25vh;">
+        <div class="card d-flex flex-column align-items-center col-3 bg-light p-1"
+             style="height: 20vh; text-align: center">
+            <img class="" style="width: 45px;" src="https://cdn-icons-png.flaticon.com/512/535/535239.png"
+                 alt="Localização">
+            <h2 class="">Título</h2>
+            <p>asasd das adsa ffa gr gdgkjdafjakjbajk hdlifalufdhludhd</p>
+        </div>
+        <div class="card d-flex flex-column align-items-center col-3 bg-light p-1"
+             style="height: 20vh; text-align: center">
+            <img width="45px" src="https://cdn-icons-png.flaticon.com/512/69/69544.png" alt="Info">
+            <h2 class="">Título</h2>
+            <p>asasd das adsa ffa gr dsahtth e tsr hdli falufdhaegfl udhd</p>
+        </div>
+        <div class="card d-flex flex-column align-items-center col-3 bg-light p-1"
+             style="height: 20vh; text-align: center">
+            <img width="45px" src="https://cdn-icons-png.flaticon.com/512/100/100514.png" alt="R">
+            <h2 class="">Título</h2>
+            <p>asasd das adsa ffa gr dsahtth e tsr hdli falufdhaegfl udhd</p>
+        </div>
+    </div>
+    <footer class="container-fluid mt-5 col-12 bg-dark d-flex flex-column justify-content-center align-items-center fixed-bottom text-light"
+            style="height: 80px">
+        <div class="fs-5  p-2 ">
+            <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-whatsapp mx-3"></i></a>
+            <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-instagram mx-3"></i></a>
+            <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-linkedin mx-3"></i></a>
+        </div>
+        <p class="text-light">© 2025 Meu Site. Todos os direitos reservados</p>
+    </footer>
+</div>
+
+<div id="sobre" class="min-vh-100 p-5 d-flex flex-column justify-content-between">
+    <div class="container-fluid bg-dark col-10 d-flex flex-row border rounded" style="height: 300px">
+        <div class="col-8 text-center text-light d-flex flex-column justify-content-center">
+            <h1>Título, teste de titulo sdas</h1>
+            <p>fanafeu jlesfs aef f eatw rgdththett ergtsdgtrs srg</p>
+        </div>
+        <div class="col-4 d-flex flex-row align-items-center">
+            <img src="https://cpv.ifsp.edu.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
+                 alt="Ravina" class="col-12 border rounded object-fit-cover" style="">
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark col-10 d-flex flex-row border rounded" style="height: 300px">
+        <div class="col-4 d-flex flex-row align-items-center">
+            <img src="https://cpv.ifsp.edu.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
+                 alt="Ravina" class="col-12 border rounded object-fit-cover" style="">
+        </div>
+        <div class="col-8 text-center text-light d-flex flex-column justify-content-center">
+            <h1>Título, teste de titulo sdas</h1>
+            <p>fanafeu jlesfs aef f eatw rgdththett ergtsdgtrs srg</p>
+        </div>
     </div>
 </div>
-<div class="container-fluid d-flex flex-row justify-content-around align-items-center bg-light col-12"
-     style="height: 25vh;">
-    <div class="card d-flex flex-column align-items-center col-3 bg-light p-1" style="height: 20vh; text-align: center">
-        <img class="" style="width: 45px;" src="https://cdn-icons-png.flaticon.com/512/535/535239.png"
-             alt="Localização">
-        <h2 class="">Título</h2>
-        <p>asasd das adsa ffa gr gdgkjdafjakjbajk hdlifalufdhludhd</p>
-    </div>
-    <div class="card d-flex flex-column align-items-center col-3 bg-light p-1" style="height: 20vh; text-align: center">
-        <img width="45px" src="https://cdn-icons-png.flaticon.com/512/69/69544.png" alt="Info">
-        <h2 class="">Título</h2>
-        <p>asasd das adsa ffa gr dsahtth e tsr hdli falufdhaegfl udhd</p>
-    </div>
-    <div class="card d-flex flex-column align-items-center col-3 bg-light p-1" style="height: 20vh; text-align: center">
-        <img width="45px" src="https://cdn-icons-png.flaticon.com/512/100/100514.png" alt="R">
-        <h2 class="">Título</h2>
-        <p>asasd das adsa ffa gr dsahtth e tsr hdli falufdhaegfl udhd</p>
-    </div>
+
+<div id="servicos" class="min-vh-100 p-5 d-flex flex-column justify-content-center align-items-center bg-dark ">
+    <h1 class="text-light">TABELA</h1>
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <!--            <th scope="col">Handle</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <!--            <td>@mdo</td>-->
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <!--            <td>@fat</td>-->
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <!--            <td>@twitter</td>-->
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <!--            <td>@mdo</td>-->
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <!--            <td>@fat</td>-->
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <!--            <td>@twitter</td>-->
+        </tr>
+        </tbody>
+    </table>
 </div>
-<footer class="container-fluid mt-5 col-12 bg-dark d-flex flex-column justify-content-center align-items-center text-light"
-        style="height: 80px">
-    <div class="fs-5  p-2 ">
-        <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-whatsapp mx-3"></i></a>
-        <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-instagram mx-3"></i></a>
-        <a class="meu-icone" href="https://www.google.com/"><i class="bi bi-linkedin mx-3"></i></a>
+
+<div id="time" class="min-vh-100 p-5 d-flex flex-column justify-content-center bg-dark">
+    <div id="div-pai" class="card bg-dark border-light text-light d-flex flex-column align-items-center justify-content-center p-5">
+        <h1 class="text-light d-block">TIME</h1>
+        <div class="bg-dark d-flex flex-row justify-content-center p-5">
+            <div class="card m-2 p-2 col-2 text-light border-light d-flex flex-column justify-content-center align-items-center">
+                <img class="border rounded" style="width: 70px"
+                     src="https://images.pexels.com/photos/5082976/pexels-photo-5082976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     alt="">
+                <h2>João <br>Gomes </h2>
+                <p>Gerente</p>
+            </div>
+
+            <div class="card m-2 p-2 col-2 text-light border-light d-flex flex-column justify-content-center align-items-center">
+                <img class="border rounded" style="width: 70px"
+                     src="https://pbs.twimg.com/media/EX2rHNlWoAEv-KT.jpg"
+                     alt="">
+                <h2>Silvia <br>Silva </h2>
+                <p>Funcionária</p>
+            </div>
+
+            <div class="card m-2 p-2 col-2 text-center text-light border-light d-flex flex-column justify-content-center align-items-center">
+                <img class="border rounded" style="width: 70px"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTL1BepviajqFODOIewIQYoUJoX9NVtNZ8zg&s"
+                     alt="">
+                <h2>Valeria Fortunato</h2>
+                <p>Sócia</p>
+            </div>
+
+            <div class="card m-2 p-2 text-center col-2 text-light border-light d-flex flex-column justify-content-center align-items-center">
+                <img class="border rounded" style="width: 70px"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR57iy8bMMEL-w-jU1lT4Fm2JnBO1fHiHeqJYMoUt3jmzAfkPTCOI2SohW4w7oUpO-0mQ0&usqp=CAU"
+                     alt="">
+                <h2>Paulin Ricardo</h2>
+                <p>Proprietário</p>
+            </div>
+
+            <div class="card m-2 p-2  text-center col-2 text-light border-light d-flex flex-column justify-content-center align-items-center">
+                <img class="border rounded" style="height: 100px"
+                     src="luk.png"
+                     alt="">
+                <h2>Mr. <br> Pycharm</h2>
+                <p>Desenvolvedor </p>
+            </div>
+        </div>
     </div>
-    <p class="text-light">© 2025 Meu Site. Todos os direitos reservados</p>
-</footer>
-<!--bootstrap-->
+
+</div>
+<div  class="min-vh-100 p-5 d-flex flex-column text-center justify-content-center bg-dark ">
+    <h1 id="contato" class="text-light">FORMULÁRIO</h1>
+    <form>
+        <div class=" d-flex flex-column align-items-center">
+            <div class="form-row col-12 d-flex flex-column align-items-center">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group col-6">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group col-6">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row col-12 d-flex flex-column align-items-center">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </form>
+</div><!--bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
