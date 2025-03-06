@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
     <title>EXERCÍCIO 1</title>
 </head>
 <body class="bg-light">
@@ -44,10 +45,14 @@
     <div id="home" class="container-fluid row d-flex justify-between col-12 bg-light" style="height: 30vh">
 
         <div class="flex-column d-flex col-6 align-middle justify-content-around" style="text-align: center">
-            <h1>texto</h1>
+            <h1 id="titulo" onmouseover="mudaCor(); addTexto()"  onmouseout="resetCor(); reset()">Bem Vindo!</h1>
             <p>adwpksefhksvbkaefbhadefdfl.hsfaufaeku ukrojjsad a dsjkaha huuheaufueaugea u afeegfeygfakug fea heaui
                 fgfae g
                 ge uhefiuegauguegfuega uc uegugfug geafu gug fauguegflbsehfiegluadfdfh</p>
+            <form>
+                <label class="text-dark" for="formulario">Formulário:</label>
+                <input id="formulario" onmouseover="testeInput()">
+            </form>
         </div>
         <div class="d-flex flex-row col-6 justify-content-center">
             <!--            <img width="250px" style="object-fit: contain"-->
@@ -318,6 +323,10 @@
         </div>
     </form>
 </div><!--bootstrap-->
+
+<script src="exemplo.js"></script>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

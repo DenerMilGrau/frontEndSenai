@@ -21,8 +21,8 @@
 /*#F8F9FA*/
 /*#212529*/
 #sobre {
-    background: rgb(248, 249, 250);
-    background: linear-gradient(180deg, rgba(248, 249, 250, 1) 0%, rgba(33, 37, 41, 1) 100%);
+    background: rgb(248,249,250);
+background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(145,147,150,1) 23%, rgba(107,110,113,1) 41%, rgba(48,52,56,1) 71%, rgba(33,37,41,1) 86%);
 }
 
 #div-pai div {
@@ -39,16 +39,19 @@
     background: rgb(248, 249, 250);
     background: linear-gradient(180deg, rgba(248, 249, 250, 0) 0%, rgba(123, 126, 129, 0.40948879551820727) 58%, rgba(33, 37, 41, 1) 100%);
 }
+
 /*.imgx img{*/
 /*    width: 100px;*/
 /*}*/
-label{
+label {
     color: aliceblue;
 }
-.logo{
+
+.logo {
     font-weight: bold;
 }
-.logo:hover{
+
+.logo:hover {
     transition: transform 2s;
     transform: scale(1.4);
 }
